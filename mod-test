@@ -1,0 +1,6 @@
+wget https://github.com/Valefgh/fnfmodinstaller/blob/main/mod-1.zip -O tmp.zip
+mv tmp.zip /sdcard/.PsychEngine/mods
+cd /sdcard/.PsychEngine/mods
+unzip tmp.zip
+rm -rf tmp.zip 
+cd ~
